@@ -33,7 +33,7 @@ export function MainHeader() {
         <div className="flex gap-2">
           <Tooltip>
             <TooltipTrigger asChild>
-              <button className="w-8 h-8 bg-card rounded-full flex p-1 items-center justify-center">
+              <button className="w-8 h-8 bg-card rounded-full flex p-1 items-center justify-center hover:scale-105">
                 <Bell size={18} />
               </button>
             </TooltipTrigger>
@@ -46,7 +46,7 @@ export function MainHeader() {
 
           <Tooltip>
             <TooltipTrigger asChild>
-              <button className="w-8 h-8 bg-card rounded-full flex p-1 items-center justify-center">
+              <button className="w-8 h-8 bg-card rounded-full flex p-1 items-center justify-center hover:scale-105">
                 <Users size={18} />
               </button>
             </TooltipTrigger>
@@ -58,7 +58,7 @@ export function MainHeader() {
 
           <Tooltip>
             <TooltipTrigger asChild>
-              <button className="w-8 h-8 bg-card rounded-full flex p-1 items-center justify-center">
+              <button className="w-8 h-8 bg-card rounded-full flex p-1 items-center justify-center hover:scale-105">
                 <Image
                   src={"https://github.com/thiago-tallison.png"}
                   alt="User profile"
