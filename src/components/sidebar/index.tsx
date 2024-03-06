@@ -44,7 +44,13 @@ export function Sidebar() {
         </div>
       </div>
 
-      <PlaylistItem title='Músicas curtidas' description='Playlist • 2 músicas' pin />
+      {Array.from({ length: 10 }).map(() => (
+        <PlaylistItem
+          key={parseInt(Math.random().toString(10).substring(2))}
+          title='Músicas curtidas' description='Playlist • 2 músicas' pin />
+
+      ))}
+
       <PlaylistItem title='Músicas curtidas' description='Playlist • 2 músicas' pin />
       <PlaylistItem title='Red Hot Chilli Peppers' description='Artista' />
     </nav>

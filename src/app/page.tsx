@@ -1,14 +1,17 @@
 import { RecentlyPlayed } from "@/components/favorite-playlists";
+import { Footer } from "@/components/footer";
 import { MainHeader } from "@/components/header";
 import { PlaylistItem } from "@/components/playlist-item-main";
 import { Sidebar } from "@/components/sidebar";
 
 export default function Home() {
   return (
-    <div className="min-h-screen min-w-screen grid grid-cols-[360px_1fr] p-2 gap-2">
-      <Sidebar />
+    <div className="min-h-screen min-w-screen grid grid-cols-[360px_1fr] grid-rows-[1fr_84px] gap-2">
+      <div className="px-2 pt-2">
+        <Sidebar />
+      </div>
 
-      <main className="bg-muted rounded-lg flex gap-6 flex-col">
+      <main className="bg-muted rounded-lg flex gap-6 flex-col px-2 mt-2">
         <MainHeader />
 
         <RecentlyPlayed />
@@ -70,6 +73,8 @@ export default function Home() {
           </section>
         </div>
       </main>
+
+      <Footer />
     </div>
   );
 }
