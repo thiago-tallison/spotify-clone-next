@@ -54,7 +54,7 @@ export function Footer() {
           <button><Volume2 size={16} /></button>
           <Slider
             className="w-28 m-w-"
-            defaultValue={[33]} max={100} step={1} />
+            defaultValue={[90]} max={100} step={1} />
         </div>
       </div>
     </footer>
