@@ -1,6 +1,9 @@
 # Spotify clone
 This is a Next.js project that aims to clone the Spotify interface. You can check out the result [here](https://spotify-clone-next-beta.vercel.app/).
 
+## Notes
+The project isn't fully responsive yet. Mobile compatibility is coming soon.
+
 ## Getting Started
 
 First, run the development server:
