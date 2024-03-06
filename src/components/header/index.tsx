@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export function MainHeader() {
   return (
-    <header className="flex justify-between items-center">
+    <header className="flex justify-between items-center py-4 px-6">
       <TooltipProvider>
         <div className="flex items-center gap-2">
           <Tooltip>
