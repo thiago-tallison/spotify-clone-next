@@ -6,12 +6,12 @@ import { Sidebar } from "@/components/sidebar";
 
 export default function Home() {
   return (
-    <div className="min-h-screen min-w-screen grid grid-cols-[360px_1fr] grid-rows-[1fr_84px] gap-2">
-      <div className="px-2 pt-2">
+    <div className="h-[calc(100vh-84px)] w-screen grid grid-cols-[360px_1fr] grid-rows-[1fr_84px] gap-2 pr-2">
+      <div className="px-2 pt-2 col-span-1 h-[calc(100vh-84px)]">
         <Sidebar />
       </div>
 
-      <main className="bg-muted rounded-lg flex gap-6 flex-col px-2 mt-2">
+      <main className="bg-muted rounded-lg flex gap-6 flex-col px-2 mt-2 col-span-1 overflow-y-auto">
         <MainHeader />
 
         <RecentlyPlayed />
