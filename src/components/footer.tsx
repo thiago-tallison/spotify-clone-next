@@ -6,7 +6,7 @@ import { Player } from "./player";
 
 export function Footer() {
   return (
-    <footer className="col-span-2 w-full bg-background fixed z-10 ring-0 left-0 bottom-0 h-[84px] p-3 flex justify-between">
+    <footer className="col-span-2 w-full bg-background z-10 ring-0 h-[84px] p-3 flex justify-between">
       <div className="flex gap-4 items-center flex-1 justify-start">
         <div className="relative group flex items-center">
           <Image

@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br" suppressHydrationWarning>
-      <body className={inter.className + " antialiased overflow-y-hidden"}>
+      <body className={inter.className + " antialiased"}>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
