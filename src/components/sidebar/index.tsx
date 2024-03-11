@@ -13,7 +13,7 @@ export function Sidebar() {
           <Search className='size-6' /> Buscar</a>
       </nav>
 
-      <nav className='flex gap-4 flex-col py-2 pl-2 rounded-lg bg-muted text-muted-foreground overflow-y-hidden mb-2'>
+      <nav className='h-full flex gap-4 flex-col py-2 pl-2 rounded-lg bg-muted text-muted-foreground overflow-y-hidden mb-2'>
         <div className="flex flex-col">
           <header className='flex items-center m-2'>
             <div className='flex gap-2 items-center flex-1'>
