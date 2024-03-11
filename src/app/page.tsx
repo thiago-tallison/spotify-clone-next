@@ -7,12 +7,12 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 
 export default function Home() {
   return (
-    <div className="h-[calc(100vh-84px)] w-screen grid grid-cols-[360px_1fr] grid-rows-[1fr_84px] gap-2 pr-2">
-      <div className="px-2 pt-2 col-span-1 h-[calc(100vh-84px)]">
+    <div className="h-[calc(100vh-84px)] w-screen grid grid-cols-[360px_1fr] grid-rows-[1fr_84px] gap-2 p-2">
+      <div className="col-span-1 h-[calc(100vh-84px)]">
         <Sidebar />
       </div>
 
-      <ScrollArea className="bg-muted rounded-lg flex gap-6 flex-col mt-2 col-span-1 overflow-y-auto">
+      <ScrollArea className="bg-muted rounded-lg flex gap-6 flex-col col-span-1 overflow-y-auto">
         <main className="bg-muted rounded-lg flex gap-6 flex-col overflow-y-auto">
           <MainHeader />
 
