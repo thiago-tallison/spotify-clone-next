@@ -1,3 +1,5 @@
+"use client"
+
 import { RecentlyPlayed } from "@/components/favorite-playlists";
 import { MainHeader } from "@/components/header";
 import { ScrollArea } from "@/components/ui/scroll-area";
